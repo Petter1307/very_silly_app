@@ -1,0 +1,28 @@
+.big-red-button {
+    background: #e63946; // Nice red color
+    color: white;
+    border: none;
+    border-radius: 50%; // Makes it round
+    width: 150px; // Big size
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  
+    &:hover {
+      background: #d62839; // Darker red on hover
+    }
+  
+    &:active {
+      background: #b71c1c; // Even darker red on click
+    }
+  } 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
