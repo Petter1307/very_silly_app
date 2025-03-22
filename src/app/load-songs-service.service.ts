@@ -35,6 +35,7 @@ export class LoadSongsServiceService {
     './sounds/sound24.opus',
     './sounds/sound25.opus',
     './sounds/sound26.opus',
+    './sounds/sound27.opus',
   ];
 
   constructor(private http: HttpClient) {
