@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build2": "ng build --base-href \"https://petter1307.github.io/very_silly_app/\"",
+    "deploy": "npm run build2 && npx angular-cli-ghpages --dir=dist/very_silly_app/browser"
   },
   "private": true,
   "dependencies": {
