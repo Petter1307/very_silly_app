@@ -15,11 +15,10 @@ export class PlayerComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    console.log("SHEHEHAKJSDHKJAHSD")
   }
 
   onPlay(){
-    this.loadSongsService.playRandom()
+    this.loadSongsService.playRandomNumber()
   }
 
 
